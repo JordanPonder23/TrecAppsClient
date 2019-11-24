@@ -1,0 +1,79 @@
+.user{
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgba(0, 0, 112, 0.5);
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(27, 72, 131, 0.473);
+    max-width: 300px;
+    min-width: 290px;
+}
+.form-input{
+    border-radius: 8px;
+    padding: 6px;
+    border-style: outset;
+    
+}
+.reg-slide-but{
+    background: rgba(255, 255, 255, 0);
+   
+    font-size: 85%;
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0);
+}
+.reg-slide-but:hover{
+    color: rgb(151, 132, 96); 
+}
+.reg-slide-but:hover .slide-origin{
+    display: inline;
+}
+
+
+#user{
+    border-bottom-style: ridge;
+    border-bottom-color: rgb(170, 192, 192);
+    border-bottom-width: 10px;
+}
+.slide-origin{
+  display: none;
+}
+#register-form-area{
+    border-top-color: rgb(170, 192, 192);
+    border-top-width: 2px;
+    border-top-style: inset;
+    z-index: 10;
+   transition: .5s ease;
+    height: 100%; 
+    background-color: rgba(245, 245, 245, 0.342);
+}
+#loginButton{
+    border-style: outset;
+    border-width: 2px;
+    border-color: rgba(43, 43, 43, 0.36);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+#regButton{
+    border-style: outset;
+    border-width: 2px;
+    border-color: rgba(43, 43, 43, 0.36);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.hidden {
+    display: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
+.slideUp {
+    transform: scale(0.7); 
+}
+.sit-reg-form{
+    display: block;
+}

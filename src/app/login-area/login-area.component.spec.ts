@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SplashComponent } from './splash.component';
+import { LoginAreaComponent } from './login-area.component';
 
-describe('SplashComponent', () => {
-  let component: SplashComponent;
-  let fixture: ComponentFixture<SplashComponent>;
+describe('LoginAreaComponent', () => {
+  let component: LoginAreaComponent;
+  let fixture: ComponentFixture<LoginAreaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SplashComponent ]
+      declarations: [ LoginAreaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SplashComponent);
+    fixture = TestBed.createComponent(LoginAreaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

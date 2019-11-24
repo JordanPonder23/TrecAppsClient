@@ -3,25 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './components/user/login/login.component';
-import { SignupComponent } from './components/user/signup/signup.component';
-import { UpdateAccountComponent } from './components/user/update-account/update-account.component';
-import { SplashComponent } from './components/splash/splash.component';
-import { RouterModule, Routes } from '@angular/router';
-import { appRoutes } from './Models/routes';
+import { WelcomeheaderComponent } from './welcomeheader/welcomeheader.component';
+import { LoginAreaComponent } from './login-area/login-area.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    SignupComponent,
-    UpdateAccountComponent,
-    SplashComponent
+    WelcomeheaderComponent,
+    LoginAreaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
